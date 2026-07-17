@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kimi K3 — Moonshot AI's Open-Source Flagship Model Explained (2026)</title>
+    <meta name="description" content="What is Kimi K3? Specs, benchmarks, pricing and how to use Moonshot AI's new open-source flagship — try Kimi K3 online free or via API in minutes.">
+    <link rel="canonical" href="https://kimik3.online/">
+    <!-- TODO: AdSense — paste the AdSense <script> snippet here on EVERY page once the account is approved -->
+    <!-- TODO: Google Analytics — paste GA4 gtag snippet here -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = { theme: { extend: { colors: { apple: {
+            blue: '#007AFF', green: '#34C759', purple: '#AF52DE',
+            orange: '#FF9500', dark: '#1C1C1E', gray: '#8E8E93', lightgray: '#F2F2F7'
+        } } } } }
+    </script>
+</head>
+<body class="bg-apple-lightgray text-apple-dark">
+    <header class="bg-apple-dark text-white p-6 shadow-md">
+        <div class="container mx-auto max-w-4xl">
+            <h1 class="text-3xl md:text-4xl font-bold">Kimi K3: Moonshot AI's Open-Source Flagship, Explained</h1>
+            <p class="text-lg mt-3 text-gray-300">Everything you need to know about Kimi K3 — what it is, how it benchmarks against GPT and Claude, and how to try it online in under five minutes.</p>
+            <nav class="mt-4">
+                <ul class="flex flex-wrap gap-4 text-sm">
+                    <li><a href="#what-is" class="hover:text-apple-orange transition-colors">What is Kimi K3</a></li>
+                    <li><a href="#specs" class="hover:text-apple-orange transition-colors">Specs</a></li>
+                    <li><a href="#benchmarks" class="hover:text-apple-orange transition-colors">Benchmarks</a></li>
+                    <li><a href="#how-to-use" class="hover:text-apple-orange transition-colors">How to Use</a></li>
+                    <li><a href="#comparison" class="hover:text-apple-orange transition-colors">K3 vs K2.6 vs Claude</a></li>
+                    <li><a href="#faq" class="hover:text-apple-orange transition-colors">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto max-w-4xl p-4 md:p-6">
+        <section id="what-is" class="my-8">
+            <h2 class="text-2xl md:text-3xl font-bold mb-4 text-apple-blue">What is Kimi K3?</h2>
+            <div class="bg-white rounded-lg shadow p-6 space-y-4">
+                <p>Kimi K3 is the new flagship large language model from Moonshot AI, the Beijing-based lab behind the Kimi assistant. Released on July 16, 2026, Kimi K3 is an open-source model built for long-horizon coding and end-to-end knowledge work, shipping with a 1-million-token context window. In plain terms: it reads entire codebases or book-length documents in one pass, and it keeps working on multi-step tasks without losing the thread.</p>
+                <p>Why does this launch matter? Within hours of release, Kimi K3 jumped from #18 to #1 on the Frontend Code Arena leaderboard with a score of 1679 — overtaking Anthropic's Claude Fable 5, the model most developers considered untouchable for front-end work. Tech media reported it as the largest open-source model ever released, with a reported parameter count of roughly 2.8 trillion. For an open-weights model to trade blows with closed frontier systems from OpenAI and Anthropic is exactly the kind of shift developers have been waiting for.</p>
+                <p>If you just want the short answer: Kimi K3 is currently the strongest open-source AI model you can actually use today — free on the web, cheap via API, and downloadable if you have the hardware.</p>
+            </div>
+        </section>
+
+        <section id="specs" class="my-12">
+            <h2 class="text-2xl md:text-3xl font-bold mb-4 text-apple-blue">Kimi K3 Key Specifications</h2>
+            <div class="bg-white rounded-lg shadow p-6">
+                <ul class="space-y-3 list-disc pl-5">
+                    <li><strong>Developer:</strong> Moonshot AI (Kimi), released July 16, 2026</li>
+                    <li><strong>Scale:</strong> reported ~2.8 trillion parameters (mixture-of-experts architecture), described by VentureBeat as the largest open-source model ever released</li>
+                    <li><strong>Context window:</strong> 1,000,000 tokens — whole repositories, legal archives, or several novels at once</li>
+                    <li><strong>Focus:</strong> long-horizon coding, agentic workflows, and end-to-end knowledge work (research → drafting → slides)</li>
+                    <li><strong>Access:</strong> web app at kimi.com, developer API at platform.kimi.ai, open weights for self-hosting</li>
+                    <li><strong>Product features:</strong> Swarm (parallel task execution) and Goal (autonomous multi-step objectives) in the Kimi app</li>
+                    <li><strong>Predecessors:</strong> Kimi K2.6 (general flagship) and K2.7 Code (coding specialist), both still available on the API</li>
+                </ul>
+                <p class="mt-4 text-sm text-apple-gray">Note: some figures (like the exact parameter count) come from press coverage of launch day and may be refined as Moonshot publishes the full technical report. We update this page as official numbers land.</p>
+            </div>
+        </section>
+
+        <section id="benchmarks" class="my-12">
+            <h2 class="text-2xl md:text-3xl font-bold mb-4 text-apple-blue">Kimi K3 Benchmarks: #1 on Frontend Code Arena</h2>
+            <div class="bg-white rounded-lg shadow p-6 space-y-4">
+                <p>The headline result so far is Arena.ai's Frontend Code Arena, a blind head-to-head evaluation where humans vote on which model builds better front-end code. On launch day, Kimi K3 scored 1679 and took the #1 spot, leading in six of the seven front-end domains tracked — a 17-place jump from where Kimi K2.6 sat (#18).</p>
+                <p>That put it ahead of Claude Fable 5, Anthropic's current front-end champion, which is remarkable for a model whose weights anyone can download. TechCrunch framed the release as Moonshot's attempt to close the gap with Anthropic's Opus 4.8 across the broader benchmark suite, and early community tests suggest it also produces playable multiplayer and 3D games from a single prompt inside the Kimi app.</p>
+                <p>Benchmarks are snapshots, not verdicts — arena rankings move as more votes come in and as competitors ship updates. We track the leaderboard and update this section, so bookmark this page if you want the running score without checking five different sites.</p>
+            </div>
+        </section>
+
+        <section id="how-to-use" class="my-12">
+            <h2 class="text-2xl md:text-3xl font-bold mb-4 text-apple-blue">How to Use Kimi K3 (Free and API)</h2>
+            <div class="bg-white rounded-lg shadow p-6 space-y-4">
+                <p><strong>Option 1 — Use Kimi K3 online free.</strong> Go to <a href="https://www.kimi.com/en" rel="nofollow" class="text-apple-blue underline">kimi.com</a>, sign in, and select K3 in the model picker. The free tier is enough to test coding, slides, and document analysis. Heavy users can upgrade to a paid plan for higher limits and Swarm parallel runs.</p>
+                <p><strong>Option 2 — Kimi K3 API.</strong> Create a key at <a href="https://platform.kimi.ai" rel="nofollow" class="text-apple-blue underline">platform.kimi.ai</a> and call the model with any OpenAI-compatible client: point the base URL at Moonshot's endpoint, set the model name to the K3 identifier from the quickstart guide, and your existing code works with minimal changes. The 1M-token context means you can send an entire project directory as context instead of building a retrieval pipeline.</p>
+                <p><strong>Option 3 — Self-host the open weights.</strong> Kimi K3's weights are published openly. Be realistic: a multi-trillion-parameter MoE is beyond consumer GPUs, so self-hosting is for clusters — but quantized community builds and hosted inference providers typically appear within days of a release this big. For most people, the web app or API is the sensible route.</p>
+                <p>Practical tip: K3 shines on long tasks. Instead of asking one small question at a time, hand it the whole job — "read this repo, find the bug, patch it, and write the changelog" — and let it run.</p>
+            </div>
+        </section>
+
+        <section id="comparison" class="my-12">
+            <h2 class="text-2xl md:text-3xl font-bold mb-4 text-apple-blue">Kimi K3 vs K2.6 vs Claude: What Actually Changed</h2>
+            <div class="bg-white rounded-lg shadow p-6 space-y-4">
+                <p><strong>Versus Kimi K2.6:</strong> K3 is a generational jump, not a tune-up. K2.6 ranked mid-table (#18) on Frontend Code Arena; K3 leads it. The context window grows to 1M tokens, and agentic features (Swarm, Goal) are built around the model rather than bolted on. K2.7 Code remains a cheaper option for pure code completion.</p>
+                <p><strong>Versus Claude Fable 5 / Opus 4.8:</strong> Anthropic's models still set the bar for long-form reasoning polish, but K3 now beats Fable 5 on front-end arena voting and costs dramatically less via API — with open weights as the trump card closed models can't match. If your workload is front-end generation, K3 demands a trial run.</p>
+                <p><strong>Versus GPT-5.x:</strong> OpenAI keeps the edge in ecosystem and multimodal breadth. K3's pitch is different: frontier-class coding at open-source economics. For teams burning serious API budget on code generation, that trade is the whole story.</p>
+                <p>The honest summary: pick K3 for long-context coding and agent pipelines where cost matters; stay with closed frontier models where their specific polish or tooling locks you in. Either way, the price of frontier intelligence just dropped — again.</p>
+            </div>
+        </section>
+
+        <section id="faq" class="my-12">
+            <h2 class="text-2xl md:text-3xl font-bold mb-4 text-apple-blue">Kimi K3 FAQ</h2>
+            <div class="bg-white rounded-lg shadow p-6 space-y-5">
+                <div><h3 class="font-bold">Is Kimi K3 free to use?</h3><p>Yes — the web app at kimi.com includes K3 on its free tier with daily limits. The API is pay-as-you-go, and the open weights are free to download for self-hosting.</p></div>
+                <div><h3 class="font-bold">Is Kimi K3 really open source?</h3><p>Moonshot publishes the model weights openly, which is what press coverage calls "the largest open-source model ever." Check the license file on the official repository for exact commercial terms before shipping a product on it.</p></div>
+                <div><h3 class="font-bold">How big is the context window?</h3><p>1 million tokens — roughly 700,000 English words, or a mid-sized codebase in a single request.</p></div>
+                <div><h3 class="font-bold">Is Kimi K3 better than Claude or GPT?</h3><p>On front-end coding arena votes, K3 currently ranks #1, ahead of Claude Fable 5. Across all tasks the picture is mixed, as it always is — treat leaderboards as a reason to run your own evaluation, not a substitute for one.</p></div>
+                <div><h3 class="font-bold">Can I run Kimi K3 locally?</h3><p>The full model needs datacenter hardware. Realistic local options are quantized community versions (watch Hugging Face in the coming days) or hosted inference providers.</p></div>
+                <div><h3 class="font-bold">Where do I read official documentation?</h3><p>The quickstart lives at platform.kimi.ai/docs/guide/kimi-k3-quickstart, covering model names, pricing tiers, and tool-calling support.</p></div>
+            </div>
+        </section>
+
+        <section class="my-12">
+            <div class="bg-apple-blue text-white rounded-lg shadow p-6 text-center">
+                <h2 class="text-2xl font-bold mb-2">Try Kimi K3 Now</h2>
+                <p class="mb-4">Test the new open-source flagship on your own hardest task — it takes two minutes and costs nothing.</p>
+                <a href="https://www.kimi.com/en" rel="nofollow" class="inline-block bg-white text-apple-blue font-bold px-6 py-3 rounded-lg hover:bg-apple-lightgray transition-colors">Open Kimi K3 Free →</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-apple-dark text-gray-400 p-6 mt-8 text-sm">
+        <div class="container mx-auto max-w-4xl flex flex-wrap gap-4 justify-between">
+            <p>© 2026 kimik3.online — independent guide, not affiliated with Moonshot AI.</p>
+            <nav class="flex gap-4">
+                <a href="/about.html" class="hover:text-white">About</a>
+                <a href="/contact.html" class="hover:text-white">Contact</a>
+                <a href="/privacy.html" class="hover:text-white">Privacy Policy</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
