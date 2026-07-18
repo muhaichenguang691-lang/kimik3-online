@@ -28,12 +28,14 @@
         <div class="container mx-auto max-w-4xl">
             <h1 class="text-3xl md:text-4xl font-bold">Kimi K3: Moonshot AI's Open-Source Flagship, Explained</h1>
             <p class="text-lg mt-3 text-gray-300">Everything you need to know about Kimi K3 — what it is, how it benchmarks against GPT and Claude, and how to try it online in under five minutes.</p>
+            <p class="text-sm mt-2 text-apple-green">Last updated: July 18, 2026 — kept current as Moonshot publishes official numbers.</p>
             <nav class="mt-4">
                 <ul class="flex flex-wrap gap-4 text-sm">
                     <li><a href="#what-is" class="hover:text-apple-orange transition-colors">What is Kimi K3</a></li>
                     <li><a href="#specs" class="hover:text-apple-orange transition-colors">Specs</a></li>
                     <li><a href="#benchmarks" class="hover:text-apple-orange transition-colors">Benchmarks</a></li>
                     <li><a href="#how-to-use" class="hover:text-apple-orange transition-colors">How to Use</a></li>
+                    <li><a href="#compare-table" class="hover:text-apple-orange transition-colors">Comparison Table</a></li>
                     <li><a href="#comparison" class="hover:text-apple-orange transition-colors">K3 vs K2.6 vs Claude</a></li>
                     <li><a href="#faq" class="hover:text-apple-orange transition-colors">FAQ</a></li>
                 </ul>
@@ -73,6 +75,92 @@
                 <p>The headline result so far is Arena.ai's Frontend Code Arena, a blind head-to-head evaluation where humans vote on which model builds better front-end code. On launch day, Kimi K3 scored 1679 and took the #1 spot, leading in six of the seven front-end domains tracked — a 17-place jump from where Kimi K2.6 sat (#18).</p>
                 <p>That put it ahead of Claude Fable 5, Anthropic's current front-end champion, which is remarkable for a model whose weights anyone can download. TechCrunch framed the release as Moonshot's attempt to close the gap with Anthropic's Opus 4.8 across the broader benchmark suite, and early community tests suggest it also produces playable multiplayer and 3D games from a single prompt inside the Kimi app.</p>
                 <p>Benchmarks are snapshots, not verdicts — arena rankings move as more votes come in and as competitors ship updates. We track the leaderboard and update this section, so bookmark this page if you want the running score without checking five different sites.</p>
+            </div>
+        </section>
+
+        <section id="compare-table" class="my-12">
+            <h2 class="text-2xl md:text-3xl font-bold mb-4 text-apple-blue">Kimi K3 vs K2.6 vs Claude vs GPT — Side-by-Side</h2>
+            <div class="bg-white rounded-lg shadow p-6 space-y-4">
+                <p>One table, every launch-day fact in one place, so you don't have to reconcile five tabs of press coverage. Figures marked <em>"—"</em> or <em>"Not disclosed"</em> are things the vendors haven't published yet — we'd rather leave a gap than guess. Updated as official numbers land.</p>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-sm text-left border-collapse">
+                        <thead>
+                            <tr class="border-b-2 border-apple-dark">
+                                <th class="p-3 font-bold">&nbsp;</th>
+                                <th class="p-3 font-bold text-apple-blue">Kimi K3</th>
+                                <th class="p-3 font-bold">Kimi K2.6</th>
+                                <th class="p-3 font-bold">Claude Fable 5</th>
+                                <th class="p-3 font-bold">GPT-5.x</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="border-b border-apple-lightgray">
+                                <td class="p-3 font-semibold">Developer</td>
+                                <td class="p-3">Moonshot AI</td>
+                                <td class="p-3">Moonshot AI</td>
+                                <td class="p-3">Anthropic</td>
+                                <td class="p-3">OpenAI</td>
+                            </tr>
+                            <tr class="border-b border-apple-lightgray">
+                                <td class="p-3 font-semibold">Released</td>
+                                <td class="p-3">July 16, 2026</td>
+                                <td class="p-3">April 20, 2026</td>
+                                <td class="p-3">Current Anthropic line</td>
+                                <td class="p-3">Current OpenAI line</td>
+                            </tr>
+                            <tr class="border-b border-apple-lightgray">
+                                <td class="p-3 font-semibold">Parameters</td>
+                                <td class="p-3">~2.8T (MoE), per press — largest open-source model reported</td>
+                                <td class="p-3">Not disclosed</td>
+                                <td class="p-3">Not disclosed (closed)</td>
+                                <td class="p-3">Not disclosed (closed)</td>
+                            </tr>
+                            <tr class="border-b border-apple-lightgray">
+                                <td class="p-3 font-semibold">Context window</td>
+                                <td class="p-3">1,000,000 tokens</td>
+                                <td class="p-3">256K tokens (262,144)</td>
+                                <td class="p-3">See Anthropic docs</td>
+                                <td class="p-3">See OpenAI docs</td>
+                            </tr>
+                            <tr class="border-b border-apple-lightgray">
+                                <td class="p-3 font-semibold">Frontend Code Arena (launch day)</td>
+                                <td class="p-3">#1 — score 1679</td>
+                                <td class="p-3">#18</td>
+                                <td class="p-3">Prior #1 (front-end champion)</td>
+                                <td class="p-3">—</td>
+                            </tr>
+                            <tr class="border-b border-apple-lightgray">
+                                <td class="p-3 font-semibold">Open weights</td>
+                                <td class="p-3 text-apple-green font-semibold">Yes</td>
+                                <td class="p-3 text-apple-green font-semibold">Yes</td>
+                                <td class="p-3">No</td>
+                                <td class="p-3">No</td>
+                            </tr>
+                            <tr class="border-b border-apple-lightgray">
+                                <td class="p-3 font-semibold">Access</td>
+                                <td class="p-3">Free web + API (pay-as-you-go) + self-host</td>
+                                <td class="p-3">API (still available)</td>
+                                <td class="p-3">Web + API</td>
+                                <td class="p-3">Web + API</td>
+                            </tr>
+                            <tr class="border-b border-apple-lightgray">
+                                <td class="p-3 font-semibold">API price (per 1M tokens)</td>
+                                <td class="p-3">$3.00 in / $15.00 out<br><span class="text-apple-gray">(cache-hit input $0.30)</span></td>
+                                <td class="p-3">$0.95 in / $4.00 out</td>
+                                <td class="p-3">Premium — see Anthropic pricing</td>
+                                <td class="p-3">Premium — see OpenAI pricing</td>
+                            </tr>
+                            <tr>
+                                <td class="p-3 font-semibold">Best for</td>
+                                <td class="p-3">Long-context coding, agent pipelines, cost-sensitive teams</td>
+                                <td class="p-3">Cheaper general / code completion</td>
+                                <td class="p-3">Long-form reasoning polish</td>
+                                <td class="p-3">Ecosystem breadth, multimodal</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p class="text-sm text-apple-gray">Sources: Arena.ai Frontend Code Arena leaderboard; VentureBeat &amp; TechCrunch launch coverage (July 16, 2026); pricing and context-window figures per Moonshot's stated API rates (platform.kimi.ai). This is an independent summary, not vendor-supplied data — verify pricing and license against official pages before you build on any of these models.</p>
             </div>
         </section>
 
